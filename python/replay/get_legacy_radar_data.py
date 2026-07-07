@@ -56,3 +56,4 @@ class GetLegacyRadarData(object):
             return [angle, tm, en, ant, data]
         except:
             return [None, None, None, None, None]
+
